@@ -36,7 +36,6 @@
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
-      "definePaths": [],
       "outputPath": ""
     },
     "ignoreDevUnusedFiles": false,

@@ -7,7 +7,7 @@
         states="alphaMode:BLEND"
       />
     </xr-assets>
-
+    <!-- https://www.shuzirenmodel.com/ar/aota/miku.glb -->
     <xr-node node-id="tracker-node">
       <xr-ar-tracker
         mode="OSD"
