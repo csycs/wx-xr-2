@@ -1,0 +1,11 @@
+<view class="container">
+  <xr-2d-marker
+    disable-scroll
+    id="2d-frame"
+    width="{{renderWidth}}"
+    height="{{renderHeight}}"
+    style="width:{{width}}px;height:{{height}}px;"
+    marker-src="{{markerSrc}}"
+    video-src="{{videoSrc}}"
+  />
+</view>

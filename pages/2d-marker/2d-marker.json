@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "xr-2d-marker": "../../components/2d-marker/index"
+  },
+  "disableScroll": true,
+  "navigationBarTitleText": "2D Marker"
+}

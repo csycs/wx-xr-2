@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="header">
+    <text class="title">XR Marker Demo</text>
+    <text class="subtitle">选择一个功能体验</text>
+  </view>
+
+  <view class="card-container">
+    <view class="card" bindtap="goToOSD">
+      <view class="card-icon">📷</view>
+      <view class="card-title">OSD Marker</view>
+      <view class="card-desc">
+        识别现实物体照片，在屏幕中标记物体的二维区域。适合识别广告牌等平面物体。
+      </view>
+      <view class="card-arrow">→</view>
+    </view>
+
+    <view class="card" bindtap="goTo2D">
+      <view class="card-icon">🎬</view>
+      <view class="card-title">2D Marker</view>
+      <view class="card-desc">
+        精准识别矩形平面，配合视频纹理实现让照片动起来的效果。
+      </view>
+      <view class="card-arrow">→</view>
+    </view>
+  </view>
+
+  <view class="tips">
+    <text class="tips-text">💡 提示：需要在真机上运行才能体验 AR 效果</text>
+  </view>
+</view>

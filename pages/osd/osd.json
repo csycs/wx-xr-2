@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "xr-osd-marker": "../../components/osd-marker/index"
+  },
+  "disableScroll": true,
+  "navigationBarTitleText": "OSD Marker"
+}
