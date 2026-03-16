@@ -26,12 +26,17 @@ Component({
 
     handleAssetsLoaded({ detail }) {
       console.log('OSD assets loaded', detail);
+      console.log('Loaded assets:', this.scene.assets);
       this.setData({ loaded: true });
       wx.showToast({
         title: '请用相机对准识别图片',
         icon: 'none',
         duration: 3000
       });
+    },
+
+    handleTrackerSwitch({ detail }) {
+      console.log('Tracker switch:', detail);
     }
   }
 });
